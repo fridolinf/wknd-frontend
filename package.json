@@ -37,7 +37,12 @@
   "devDependencies": {
     "@ant-design/icons": "^4.7.0",
     "antd": "^4.20.1",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
     "install": "^0.13.0",
+    "prettier": "^2.6.2",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1"
   }
