@@ -1,0 +1,23 @@
+@import "utils.scss";
+
+footer{
+  background-color: $blue;
+  height: 67px;
+  color: $white;
+  padding-top: 27px;
+}
+
+.wknd{
+  font-size: 12px;
+  font-weight: $weight-400;
+}
+
+.alpha{
+  border: 1px solid $white;
+  width: 94px;
+  height: 18px;
+  text-align: center;
+  border-radius: 9px;
+  font-size: 10px;
+  font-weight: $weight-300;
+}

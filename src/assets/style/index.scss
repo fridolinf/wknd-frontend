@@ -1,0 +1,21 @@
+@import '~antd/dist/antd.css';
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import "utils.scss";
+@import "header.scss";
+@import "intro-section.scss";
+@import "deffinition.scss";
+@import "conclusion.scss";
+@import "footer.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $font-families;
+}
+body{
+  background-color: $cream;
+  height: 10%;
+}

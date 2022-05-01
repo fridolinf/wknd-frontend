@@ -1,0 +1,40 @@
+@import "utils.scss";
+header{
+  color: $black;
+  position: relative;
+  z-index: 1000;
+  background-color: $white;
+  height: 67px;
+}
+
+.header-row{
+  padding: 17px;
+}
+
+.icon-header{
+  width: $icons-header;
+  height: $icons-header;
+}
+
+.name-header{
+  font-size: 16px;
+  font-weight: $weight-700;
+  line-height: 18.75px;
+}
+
+.greeting-header{
+  font-size: 12px;
+  font-weight: $weight-400;
+  height: 2px;
+  line-height: 14.06px;
+}
+
+
+@media screen and (max-width: $mobile-based) {
+  header{
+    color: $black;
+    z-index: 1000;
+    background-color: $white;
+  }
+}
+

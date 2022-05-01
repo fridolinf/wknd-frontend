@@ -1,0 +1,199 @@
+@import "utils.scss";
+
+.path{
+  img{
+    width: 100vw;
+  }
+}
+
+.blue-path-web{
+  position: absolute;
+  top: 0px;
+  left: 95px;
+  width: 751.56px !important;
+  height: 230.83px;
+}
+
+.black-path-web{
+  height: 731.43px;
+  width: 100vw !important;
+}
+
+.circle-blue{
+  position: absolute;
+  top: 325px;
+  z-index: 1000;
+  left: -66px;
+  background: $blue;
+  border-radius: 100px;
+  width: 132px;
+  height: 132px;
+}
+
+.first-intro{
+  z-index: 1000;
+  position: absolute;
+  color: $white;
+  top: 195px;
+  line-height: 51px;
+  text-align: center;
+}
+
+.weekend{
+  height: 102px;
+  font-size: 62px;
+  font-weight: $weight-900;
+}
+
+.stay-active{
+  line-height: 0px;
+  font-style: italic;
+  font-size: 21px;
+}
+
+.robots{
+  position: absolute;
+  top: 55vh;
+  img{
+    width: 184px;
+    height: 305px;
+  }
+}
+
+
+.img-help-intro{
+  margin-left: 100px;
+  width: 266px !important;
+  height: 327px !important;
+  transform: rotate(215deg);
+}
+
+
+.letsgo-section{
+  font-weight: $weight-400;
+  font-size: 16px;
+  background-color: $white;
+  width: 231px;
+  height: 58px;
+  border-radius: 29px;
+  position: absolute;
+  top: 83vh;
+  left: 20px;
+}
+
+.letsgo{
+  text-align: center;
+  padding-top: 15px;
+}
+
+.slider-section{
+  width: 650px;
+  position: absolute;
+  margin-top: 60px;
+}
+
+.card-slider{
+  width: 257px;
+  height: 140px;
+  right: 32px;
+  h3{
+    font-weight: $weight-900;
+    font-size: 32px;
+    line-height: 37.5px;
+    height: 38px;
+  }
+  p{
+    font-weight: $weight-400;
+    font-size: 12px;
+    line-height: 14.06px;
+    letter-spacing: -0.43px;
+  }
+}
+
+@media screen and (max-width: $mobile-based) {
+  .blue-path{
+    display: block !important;
+    position: absolute;
+    top: 15px;
+  }
+
+  .black-path{
+    display: block !important;
+    height: 100vh;
+  }
+
+  .img-help-intro{
+    display: none !important;
+  }
+
+  .black-path-web{
+    display: none;
+  }
+
+  .blue-path-web{
+    display: none;
+  }
+
+  .first-intro{
+    line-height: 51px;
+    top: 145px;
+  }
+
+  .weekend{
+    font-size: 52px;
+  }
+
+  .stay-active{
+    line-height: 50px;
+    font-style: italic;
+    font-size: 16px;
+  }
+
+  .circle-blue{
+    position: absolute;
+    top: 300px;
+    z-index: 1000;
+    left: -66px;
+    background: $blue;
+    border-radius: 100px;
+    width: 132px;
+    height: 132px;
+  }
+
+  .robots{
+    position: absolute;
+    top: 60vh;
+    img{
+      width: 184px;
+      height: 305px;
+    }
+  }
+
+  .letsgo-section{
+    width: 231px;
+    height: 55px;
+    position: absolute;
+    top: 93vh;
+    left: 10px;
+  }
+
+  .slider-section{
+    width: 380px;
+    position: absolute;
+    margin-top: 60px;
+    left: 14px;
+  }
+
+}
+
+
+@media screen and (max-width: $web-based) {
+  .blue-path{
+    display: none;
+  }
+
+  .black-path{
+    display: none;
+  }
+
+}

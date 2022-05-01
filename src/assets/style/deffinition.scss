@@ -1,0 +1,86 @@
+@import "utils.scss";
+
+.pink-robot{
+  justify-content: flex-end;
+  display: flex;
+}
+
+.pink-path{
+  width: 76px;
+  height: 158px;
+}
+
+.robot{
+  position: absolute;
+  width: 95px;
+  height: 158px;
+  transform: rotate(270deg);
+  right: 32px;
+  margin-top: 2px;
+}
+
+.deffinition-text{
+  margin: 63px auto;
+  text-align: right;
+  width: 510px;
+  height: 160px;
+  line-height: 32px;
+  letter-spacing: -0.75px;
+  font-size: 21px;
+  font-weight: $weight-500;
+  b{
+    font-weight: $weight-700;
+    color: $blue;
+  }
+}
+
+.weekend-team{
+  color: $white;
+  font-weight: $weight-600;
+  text-align: right;
+  font-size: 21px;
+  font-style: italic;
+}
+
+
+.circle-blues{
+  background: $blue;
+  border-radius: 100px;
+  width: 89px;
+  height: 89px;
+}
+
+.text-circle-blues{
+  font-size: 32px;
+  font-weight: $weight-900;
+  position: absolute;
+  color: $white;
+  left: -12px;
+}
+
+@media screen and (max-width: $mobile-based) {
+  .deffinition-text{
+    margin: 63px auto;
+    text-align: right;
+    width: 300px;
+    height: 168px;
+    line-height: 24px;
+    letter-spacing: -0.27px;
+    font-size: 16px;
+    font-weight: $weight-500;
+    b{
+      font-weight: $weight-700;
+      color: $blue;
+    }
+  }
+
+  .weekend-team{
+    font-size: 16px;
+  }
+
+  .text-circle-blues{
+    position: absolute;
+    top: 1195px;
+  }
+
+}
