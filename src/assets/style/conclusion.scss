@@ -2,8 +2,8 @@
 
 .conclusion-body{
   background-color: $black;
-  height: 100%;
   margin-top: 100px;
+  height: 1473px;
 }
 
 .pov{
@@ -19,7 +19,7 @@
     color: $white;
     line-height: 27px;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: $f16;
     letter-spacing: 1px;
     text-align: center;
     font-weight: $weight-400;
@@ -48,7 +48,7 @@
 .card-title{
   width: 218px;
   font-weight: $weight-700;
-  font-size: 16px;
+  font-size: $f16;
   color: $white;
   letter-spacing: -0.57px;
   line-height: 18.75px;
@@ -83,17 +83,28 @@
   width: 137px;
   height: 227px;
   transform: rotate(180deg);
-  top: 2723px;
-  left: 31px;
+  top: 2585px;
+  left: 32px;
+  z-index: 1000;
+  &:hover{
+    left: 0px;
+  }
 }
 
 .last-text{
-  margin-top: 67px;
-  margin-bottom: 67px;
+  margin-top: 147px;
 }
 
+.pink-bottom{
+  top: 2631px;
+  position: absolute;
+}
 
 @media screen and (max-width: $mobile-based) {
+  .conclusion-body{
+    height: 2073px;
+  }
+
   .pov{
     p{
       width: 311px;
@@ -109,53 +120,34 @@
   }
 
   .help-section{
-    width: 311px;
     left: 0;
     margin: 0 auto;
   }
 
   .card-footer{
-    background-color: rgba(0,0,0,0.5);
-    z-index: 1000;
     width: 311px;
   }
 
   .card-title{
-    width: 218px;
-    font-weight: $weight-700;
-    font-size: 16px;
-    color: $white;
     padding-left: 15px;
-    letter-spacing: -0.57px;
-    line-height: 18.75px;
-    height: 38px;
-  }
-
-  .card-icon{
-    color: $blue;
-    background-color: $white;
-    border-radius: 20px;
-    width: 32px;
-    height: 32px;
-    padding-top:8px;
-  }
-
-  .card-style{
-    margin-bottom: 10px;
   }
 
   .img-help-and-tips{
     display: none;
   }
 
-
   .robot-bottom{
-    position: absolute;
     width: 142px;
     height: 236px;
-    transform: rotate(180deg);
-    top: 3155px;
-    left: 32px;
+    top: 3065px;
+  }
+
+  .last-text{
+    margin-top: 67px;
+  }
+
+  .pink-bottom{
+    top: 3110px;
   }
 
 }

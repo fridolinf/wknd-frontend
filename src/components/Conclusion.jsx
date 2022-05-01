@@ -69,7 +69,7 @@ function Conclusion({ dataConclution }) {
       </div>
 
       <img className="robot-bottom" src={robot} alt="robot" />
-      <img src={pinkpath} alt="pink path" />
+      <img className="pink-bottom" src={pinkpath} alt="pink path" />
     </div>
   );
 }

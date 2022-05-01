@@ -22,6 +22,12 @@ function CardTestimoni({ dataTesti }) {
           arrows: false,
         },
       },
+      {
+        breakpoint: 1360,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
     ],
   };
   return (

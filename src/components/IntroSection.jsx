@@ -25,15 +25,15 @@ function IntroSection() {
         <img className="black-path-web" src={blackPathWeb} alt="black path" />
       </Row>
       <Col className="circle-blue" xl={{ offset: 9 }}></Col>
-      <Col className="robots" xs={{ offset: 6 }} xl={{ offset: 11 }}>
-        <img src={robot} alt="robot" />
+      <Col className="col-robots" xs={{ offset: 6 }}>
+        <img className="robots" src={robot} alt="robot" />
         <img
           className="img-help-intro"
           src={imgHelpAndTips}
           alt="path img help and tips"
         />
       </Col>
-      <Col className="letsgo-section" xs={{ offset: 4 }} xl={{ offset: 10 }}>
+      <Col className="letsgo-section" xs={{ offset: 4 }}>
         <p className="letsgo">Let's Go</p>
       </Col>
     </div>
